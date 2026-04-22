@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { useEffect } from "react"
+import "./style.css"
 
 function Api(){
     
@@ -22,7 +23,9 @@ function Api(){
     {dragonball.map((item) => {
             return <div key={item.id} className = "main">
                         <h6>{item.name}</h6>
-                        <img src={item.image} alt={item.name} width="150px" />
+                        <div className="IMG">
+                            <img src={item.image} alt={item.name} width="150px" />
+                        </div>
                         <p>{item.description}</p>
                     </div>
     })}

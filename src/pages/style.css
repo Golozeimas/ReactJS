@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    padding-top: 15px;
+    text-align: center;
+    height: 80px;
+    background-color: #D2691E;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.main h6{
+    font-size: 38px;
+    padding: 10px;
+}
+
+.IMG{
+    width: 100%;
+    text-align: center;
+}
+
+.main p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+}

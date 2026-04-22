@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import App2 from './App2.jsx'
-import ToDoList from './ToDoList.jsx'
-import Api from './Api.jsx'
+import App from './pages/App.jsx'
+import App2 from './pages/App2.jsx'
+import ToDoList from './pages/ToDoList.jsx'
+import Api from './pages/Api.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Api/>
