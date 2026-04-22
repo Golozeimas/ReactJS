@@ -22,9 +22,6 @@ function Api(){
     // apenas um return por função, com 1 elemento dentro
     return(
     <div className="body2">
-    <div className="header">
-        <h1>Dragon ball - WIKI</h1>        
-    </div>
 
     {dragonball.map((item) => {
         // .jsx -> REACT, mistura JS com HTML ficando mais fácil de se desenvolver com VirtualDOM

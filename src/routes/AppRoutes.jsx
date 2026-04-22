@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Api from "../pages/Api";
 import App from "../pages/App";
+import Header from "../components/header";
 
 function Rotas(){
     return(
